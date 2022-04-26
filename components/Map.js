@@ -14,7 +14,7 @@ const Map = () => {
   const origin = useSelector(selectOrigin);
   const destination = useSelector(selectDestination);
   const mapRef = useRef(null);
-  const GOOGLE_API_MAPS = "AIzaSyBSd4kmM6GJG5HeolBPwdZcMB1MMt208y4"; //-muista piilottaa
+  const GOOGLE_API_MAPS = "//"; //-muista piilottaa
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -56,7 +56,7 @@ const Map = () => {
           origin={origin.description}
           destination={destination.description}
           //API KEY Remember to DELETE
-          apikey={"AIzaSyBSd4kmM6GJG5HeolBPwdZcMB1MMt208y4"}
+          apikey={"//"}
           strokeWidth={3}
           strokeColor="black"
         />

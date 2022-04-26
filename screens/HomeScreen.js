@@ -49,7 +49,7 @@ const HomeScreen = () => {
           query={{
             //API KEY Remember to DELETE
 
-            key: "AIzaSyBSd4kmM6GJG5HeolBPwdZcMB1MMt208y4",
+            key: "//",
             language: "en",
           }}
           nearbyPlacesAPI="GooglePlacesSearch"
